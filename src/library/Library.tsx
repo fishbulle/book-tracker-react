@@ -1,7 +1,13 @@
 export default function Library() {
     return (
         <>
-        <h1>MY BOOKS!</h1>
+         <div className="main-container">
+                <h1>my books</h1>
+                <p>books</p>
+                <p>books</p>
+                <p>books</p>
+                <p>books</p>
+            </div>
         </>
     )
 }

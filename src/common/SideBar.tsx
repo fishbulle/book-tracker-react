@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { GiBookCover } from 'react-icons/gi';
+import { GiBookCover, GiBookmarklet } from 'react-icons/gi';
 
 const SideBar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -16,7 +16,7 @@ const SideBar = () => {
         <div className="sidebar">
             {!sidebarOpen ? (
                 <div className="sidebar_icon" onMouseEnter={handleSidebarOpen}>
-                    <GiBookCover />
+                    <GiBookmarklet />
                 </div>
             ) : (
                 <>

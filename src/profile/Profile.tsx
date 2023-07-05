@@ -1,7 +1,13 @@
 export default function Profile() {
     return (
         <>
-        <h1>MY PROFILE!</h1>
+         <div className="main-container">
+                <h1>profile</h1>
+                <p>books</p>
+                <p>books</p>
+                <p>books</p>
+                <p>books</p>
+            </div>
         </>
     )
 }
