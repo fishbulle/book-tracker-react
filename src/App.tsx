@@ -4,12 +4,14 @@ import Root from "./home/Home"
 import Library from "./library/Library"
 import Feed from "./feed/Feed"
 import Profile from "./profile/Profile"
+import SideBar from "./common/SideBar"
 
 function App() {
     return (
         <>
             <BrowserRouter>
                 <NavBar />
+                <SideBar />
                 <Routes>
                     <Route path="/" element={<Root />} />
                     <Route path="/library" element={<Library />} />
