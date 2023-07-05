@@ -1,8 +1,6 @@
 import { useState } from "react";
 import { GiBookCover, GiBookmarklet } from 'react-icons/gi';
-import cover from '../assets/images/icebreaker.jpg'
 import { books } from '../library/books'
-
 import './SideBar.css';
 
 const SideBar = () => {
