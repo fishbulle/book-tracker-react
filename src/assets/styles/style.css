@@ -24,15 +24,12 @@
     align-items: center;
     justify-content: center;
     cursor: pointer;
-    transition: all 1s ease-in;
+    transition: all 0.3s ease-in;
+    font-size: 1.7rem;
 }
 
 .sidebar_icon:hover {
     background-color: #555;
-}
-
-.sidebar_icon i {
-    font-size: 1.7rem;
 }
 
 .sidebar_items {
@@ -49,7 +46,7 @@
     align-items: center;
     margin-bottom: 10px;
     cursor: pointer;
-    transition: all 1s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 
 .sidebar_item:hover {
