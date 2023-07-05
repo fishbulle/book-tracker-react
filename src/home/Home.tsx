@@ -1,13 +1,7 @@
 export default function Root() {
     return (
         <>
-        <div className="container">
-
-        </div>
-            {/* nav */}
-
-            {/* sidebar */}
-            
+            <h1>HOME</h1>
         </>
     )
 }
