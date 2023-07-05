@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { GiBookCover, GiBookmarklet } from 'react-icons/gi';
+import './SideBar.css';
 
 const SideBar = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
