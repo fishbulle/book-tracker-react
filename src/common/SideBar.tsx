@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { GiBookCover, GiBookmarklet } from 'react-icons/gi';
+import cover from '../assets/images/icebreaker.jpg'
+import { books } from '../library/books'
+
 import './SideBar.css';
 
 const SideBar = () => {
@@ -25,7 +28,9 @@ const SideBar = () => {
                         <GiBookCover />
                     </div>
                     <div className="sidebar_items">
-                        <p>This will show what book you're reading right now</p>
+                        <h3>Currently reading:</h3>
+                        <img src={books[5].cover} />
+                        <p>{books[5].title} by {books[5].author}</p>
                     </div>
                 </>
             )}
